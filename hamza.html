@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hamza Ali</title>
+        <style>
+            body {
+                background: indianred;
+            }
+            #top{
+                text-align: center;
+                background-color: #800020;
+            }
+            #banner{
+                text-align: left;
+            }
+            #bottom{
+                text-align: left;
+            }
+            ul {
+                text-align: left;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <script>
+        function objection() {
+            document.getElementById("image").setAttribute("src", "hamza_images/objection2.gif")
+            window.setTimeout(resetImg, 2575)
+        }
+        function resetImg() {
+            document.getElementById("image").setAttribute("src", "hamza_images/objection1.gif")
+        }
+    </script>
+    <body>
+        <div id="top">
+            <br>
+            <div id="banner">
+                <h3>This is a test...</h3>
+                <p>Hello world!</p>
+                <a href="index.html" style="font-size: large;" target="_blank">Previous Page</a>
+            </div>
+            <h1 style="color: red" onmouseover="style.color='green'" onmouseout="style.color='red'">The Domain of Hamza Ali</h1>
+            <p>Hover over the above text...</p>
+            <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past", target="_blank">A Link to the Past</a>
+            <h2>An image should be under here...</h2>
+            <img id="image", src="hamza_images/objection1.gif", alt="Test Image">
+            <br>
+            <br>
+            <button onclick="objection()">Objection?</button>
+            <div id="bottom">
+                <h3>Uses for lists:</h3>
+                <ul>
+                    <li>Navigation Bar???</li>
+                    <li><a href="https://www.w3schools.com/html/">HTML W3School Page</a></li>
+                    <li><a href="https://www.w3schools.com/js/default.asp">JS W3School Page</a></li>
+                    <li>weeeeeeeeeeeee</li>
+                </ul>
+                <h3>Numbers from 1 to 5:</h3>
+                <ol>
+                    <li>one</li>
+                    <li>two</li>
+                    <li>one</li>
+                    <li>four</li>
+                    <li>five</li>
+                </ol>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>
