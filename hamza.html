@@ -4,7 +4,8 @@
         <title>Hamza Ali</title>
         <style>
             body {
-                background: indianred;
+                /* background: indianred; */
+                margin: 0%;
             }
             #top{
                 text-align: center;
@@ -12,11 +13,13 @@
             }
             #banner{
                 text-align: left;
+                background-color: #900020;
             }
             #bottom{
                 text-align: left;
+                background-color: #6b0017;
             }
-            ul {
+            #list1 {
                 text-align: left;
                 list-style-type: none;
                 margin: 0;
@@ -35,40 +38,44 @@
     </script>
     <body>
         <div id="top">
-            <br>
             <div id="banner">
-                <h3>This is a test...</h3>
-                <p>Hello world!</p>
-                <a href="index.html" style="font-size: large;" target="_blank">Previous Page</a>
+                <h3 style="margin-top: 0%; margin-bottom: 1%;" onmouseover="style.color='red'" onmouseout="style.color='black'">This is a test...</h3>
+                <p onmouseover="style.color='red'" onmouseout="style.color='black'">Hello world!</p>
+                <a href="index.html" style="font-size: large;">Previous Page</a>
+                <br>
+                <br>
             </div>
-            <h1 style="color: red" onmouseover="style.color='green'" onmouseout="style.color='red'">The Domain of Hamza Ali</h1>
-            <p>Hover over the above text...</p>
+            <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">The Domain of Hamza Ali</h1>
+            <p onmouseover="style.color='red'" onmouseout="style.color='black'">Hover over text to light it up!</p>
             <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past", target="_blank">A Link to the Past</a>
-            <h2>An image should be under here...</h2>
+            <h2 onmouseover="style.color='red'" onmouseout="style.color='black'">An image should be under here...</h2>
             <img id="image", src="hamza_images/objection1.gif", alt="Test Image">
             <br>
             <br>
             <button onclick="objection()">Objection?</button>
-            <div id="bottom">
-                <h3>Uses for lists:</h3>
-                <ul>
-                    <li>Navigation Bar???</li>
-                    <li><a href="https://www.w3schools.com/html/">HTML W3School Page</a></li>
-                    <li><a href="https://www.w3schools.com/js/default.asp">JS W3School Page</a></li>
-                    <li>weeeeeeeeeeeee</li>
-                </ul>
-                <h3>Numbers from 1 to 5:</h3>
-                <ol>
-                    <li>one</li>
-                    <li>two</li>
-                    <li>one</li>
-                    <li>four</li>
-                    <li>five</li>
-                </ol>
-                <br>
-                <br>
-                <br>
-            </div>
+            <br>
+            <br>
+        </div>
+        <div id="bottom">
+            <br>
+            <h3 style="margin-top: 0%;" onmouseover="style.color='red'" onmouseout="style.color='black'">Uses for lists:</h3>
+            <ul id="list1">
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">Navigation Bar???</li>
+                <li><a href="https://www.w3schools.com/html/">HTML W3School Page</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">JS W3School Page</a></li>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">weeeeeeeeeeeee</li>
+            </ul>
+            <h3 onmouseover="style.color='red'" onmouseout="style.color='black'">Numbers from 1 to 5:</h3>
+            <ol>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">one</li>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">two</li>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">one</li>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">four</li>
+                <li onmouseover="style.color='red'" onmouseout="style.color='black'">five</li>
+            </ol>
+            <br>
+            <br>
+            <br>
         </div>
     </body>
 </html>
