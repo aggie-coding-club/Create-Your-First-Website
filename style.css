@@ -1,4 +1,5 @@
 html, body{
+    background-color: seagreen;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +14,7 @@ html, body{
 
 }
 .background{
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(218, 158, 47);
     max-width: 80%;
     display: flex;
     flex-direction: row;
@@ -21,7 +22,7 @@ html, body{
 }
 
 .left, .right{
-    background-color: navy;
+    background-color: rgb(70, 70, 161);
     margin: 10px;
     max-width: 60%;
     flex: 1;
