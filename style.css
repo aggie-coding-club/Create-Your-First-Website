@@ -10,21 +10,21 @@ html, body{
     font-family: 'Roboto', sans-serif;
 }
 .profile{
-    border-radius: 49%;
+    border-radius: 50%;
 
 }
 .background{
     background-color: rgb(218, 158, 47);
-    max-width: 80%;
+    max-width: 90%;
     display: flex;
     flex-direction: row;
-    height: 80%;
+    height: 90%;
 }
 
 .left, .right{
     background-color: rgb(70, 70, 161);
     margin: 10px;
-    max-width: 60%;
+    max-width: 85%;
     flex: 1;
 }
 
@@ -39,7 +39,7 @@ html, body{
 
 .links{
     display:inline-block;
-    margin-left: 12px;
+    margin-left: 10px;
 }
 
 .body{
